@@ -29,7 +29,7 @@ class PRMCHEQ extends JsonResource
             'montoTotal' => $montoTotal,
             'diasAtraso' => $diasAtraso,
             'comision' => $this->ChPagCom,
-            'PylCod' => trim($this->PylCod),
+            'PylCod' => trim($this->PylCod ?? ''),
             'CliNop' => $this->CliNop,
             'CliSec' => $this->CliSec,
             'ChRecSeg' => $this->ChRecSeg,
