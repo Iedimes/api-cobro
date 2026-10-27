@@ -4,7 +4,7 @@ namespace App\Http\Controllers\API;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Models\PRMCHEQ;
 use App\Http\Resources\PRMCHEQ as CuotasResource;
 use App\Http\Resources\PagoCuota as PagoCuotaResource;
